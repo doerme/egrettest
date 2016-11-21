@@ -1,0 +1,44 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,hero-01,hero-02,coin_music_wav",
+			"name": "heroes"
+		},
+		{
+			"name": "preload",
+			"keys": "coin_music_wav"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "hero-01",
+			"type": "image",
+			"url": "assets/hero-01.png"
+		},
+		{
+			"name": "hero-02",
+			"type": "image",
+			"url": "assets/hero-02.png"
+		},
+		{
+			"name": "coin_music_wav",
+			"type": "sound",
+			"url": "assets/coin_music.wav"
+		}
+	]
+}
