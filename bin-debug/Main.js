@@ -162,7 +162,7 @@ var Main = (function (_super) {
     };
     p.onReceiveMessage = function (e) {
         var msg = this.webSocket.readUTF();
-        console.log("Receive data:" + msg);
+        console.log("Receive data: test " + msg);
     };
     return Main;
 }(egret.DisplayObjectContainer));

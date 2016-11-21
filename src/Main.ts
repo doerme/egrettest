@@ -191,7 +191,7 @@ class Main extends egret.DisplayObjectContainer {
 
     private onReceiveMessage(e:egret.Event):void {    
         var msg = this.webSocket.readUTF();    
-        console.log("Receive data:" + msg); 
+        console.log("Receive data: test " + msg); 
     }
 
     
