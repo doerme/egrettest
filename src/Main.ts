@@ -143,8 +143,7 @@ class Main extends egret.DisplayObjectContainer {
         superman.anchorOffsetY = 40;
         superman.x += 30;
         superman.y += 40;
-
-
+        
         this.times = -1;
         var self = this;
         this.stage.addEventListener( egret.TouchEvent.TOUCH_TAP, function(){ 
