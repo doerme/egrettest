@@ -188,6 +188,7 @@ class Main extends egret.DisplayObjectContainer {
         console.log("The connection is successful, send data: " + cmd);    
         this.webSocket.writeUTF(cmd); 
     }
+    
 
     private onReceiveMessage(e:egret.Event):void {    
         var msg = this.webSocket.readUTF();    
